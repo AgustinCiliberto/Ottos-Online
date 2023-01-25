@@ -1,0 +1,46 @@
+body {
+    margin-top: 56px;
+}
+
+.navbar {
+    background-color: rgb(14,80,79);
+}
+
+.navbar-brand {
+    font-family: 'Fredoka One', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Fredoka One', sans-serif;
+}
+
+
+p {
+    font-family: 'Neucha', sans-serif;
+}
+
+
+.btn {
+    font-family: 'Neucha', sans-serif;
+    background-color: rgb(250,202,117);
+    border: none;
+}
+
+li a {
+    font-family: 'Neucha', sans-serif;
+}
+
+.btn:hover {
+    background-color: black;
+    color: white;
+    border: none;
+    transition: .5s;
+}
+
+.titulos {
+    color: rgb(14,80,79);
+}
+
+.lista li {
+    font-family: $fontParrafo;
+}

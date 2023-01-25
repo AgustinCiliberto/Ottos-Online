@@ -1,0 +1,10 @@
+.d-item {
+    height: 450px;
+    
+
+    & .d-img{
+        height: 100%;
+        background-position: center;
+        object-fit: cover;
+    }
+}

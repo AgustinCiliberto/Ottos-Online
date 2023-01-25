@@ -1,71 +1,208 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="../images/Logo-Otto`s.gif" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/style.css">
-    <title>Otto´s Online - Alimentación </title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Consejos sobre la alimentacion de tu perro">
+  <meta name="keywords"
+    content="Alimento balanceado, cuchas para perros, juguetes para perros, correas, pretales, jaula">
+  <link rel="shortcut icon" href="../images/Logo-Otto`s.gif" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="../css/estilo.css">
+  <title>Otto´s Online - Alimentación </title>
 </head>
+
 <body>
-    <!--Navbar-->
-    <header>
-      <nav class="navbar navbar-dark navbar-expand-lg fixed-top">
-        <div class="container">
-          <a class="navbar-brand" href="../index.html"><span class="text-warning">Otto´s</span> Online</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link"  href="../index.html">Inicio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="../pages/alimentacion.html">Alimentacion</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../pages/adopcion.html">Adopcion</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../pages/contacto.html">Contacto</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../pages/tienda.html">Tienda</a>
-              </li>
+  <!--Navbar-->
+  <header>
+    <nav class="navbar navbar-dark navbar-expand-lg fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="../index.html"><span class="text-warning">Otto´s</span> Online</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../pages/alimentacion.html">Alimentacion</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/adopcion.html">Adopcion</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/tienda.html">Tienda</a>
+            </li>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!--Titulo y background-->
+  <main>
+    <section class="secondaryHero">
+      <div class="container">
+        <hr class="featurette-divider">
+        <div data-aos="fade-up" class="d-flex justify-content-center mb-3">
+          <h3 class="titulos">Consejos sobre la alimentacion de tu perro</h3>
+        </div>
+        <hr class="featurette-divider">
+      </div>
+      <!-- Carousel -->
+      <div id="demo" class="carousel carousel-dark slide container-fluid" data-bs-ride="carousel" data-aos="zoom-in">
+
+        <!-- Indicators/dots -->
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+        </div>
+
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner">
+          <div class="carousel-item active d-item">
+            <img src="../images/alimentacion.jpg" alt="Los Angeles" class="d-block w-100 d-img rounded">
+          </div>
+          <div class="carousel-item d-item">
+            <img src="../images/alimentacion2.jpg" alt="Chicago" class="d-block w-100 d-img rounded">
+          </div>
+          <div class="carousel-item d-item">
+            <img src="../images/alimentacion3.jpg" alt="New York" class="d-block w-100 d-img rounded">
           </div>
         </div>
-      </nav>
-    </header>
-    
 
-    <footer class="pie d-flex flex-column align-items-center justify-content-center text-white mt-3">
-      <p class="pie-texto text-center"> Otto´s Online <br> Copyright - Todos los derechos reservados</p>
-      <div class=" iconos-redes d-flex flex-wrap align-items-center justify-content-center">
-        <a href="#" target="_blank" rel="noopener noreferrer">
-          <i class="fa-brands fa-instagram"></i>
-        </a>
-        <a href="#">
-          <i class="fa-brands fa-square-facebook"></i>
-        </a>
-        <a href="#">
-          <i class="fa-brands fa-twitter"></i>
-        </a>
-        <a href="#">
-          <i class="fa-brands fa-tiktok"></i>
-        </a>
-
+        <!-- Left and right controls/icons -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
       </div>
-      
-    </footer>
+    </section>
+    <!--Articulos-->
+    <article class=" articulos container-fluid p-2">
+      <div class="row align-items-center justify-content-center m-3">
+        <div class="col-md-6 mb-3" data-aos="fade-right">
+          <img src="../images/alimentacion.jpg" class="img-fluid rounded" alt="">
+        </div>
+        <div class="col-md-6" data-aos="fade-left">
+          <h4 class="text-center mb-5 text-warning">
+            Tipos de Alimentacion
+          </h4>
+          <p>
+            Si queremos saber qué tipo de alimentación es mejor para los perros, lo primero que debemos entender es la
+            naturaleza del propio animal. El perro es un carnívoro facultativo o carroñero, lo que quiere decir que,
+            siendo carnívoro, puede sobrevivir con fuentes alimenticias diferentes a la animal; a diferencia del gato,
+            que es un carnívoro estricto. Y, ¿qué quiere decir esto? pues que está "facultado" para sobrevivir a través
+            del consumo de cierto tipo de frutas y vegetales. Al ser un animal carnívoro facultativo, el perro puede
+            sobrevivir con algunos alimentos de estos grupos pero, sin el consumo de proteína animal, no tiene todas sus
+            necesidades biológicas cubiertas.
+          </p>
+        </div>
+        <hr class="featurette-divider">
+        <div class="row align-items-center justify-content-center m-3">
+          <div class="col-md-6 mb-3 order-md-2" data-aos="fade-left">
+            <img src="../images/alimentacion2.jpg" class="img-fluid rounded" alt="">
+          </div>
+          <div class="col-md-6 mt-2 order-md-1" data-aos="fade-right">
+            <h4 class="text-center mb-5 text-warning">
+              Dieta B.A.R.F
+            </h4>
+            <p>
+              La dieta B.A.R.F. (Biologically Appropriate Raw Food o Biológicamente Apropiada) fue creada en base al
+              entendimiento de las necesidades biológicas del perro como carnívoro facultativo y está compuesta por
+              alimentos crudos que conservan una proporción aproximada por ingesta de:
+            <ul class="lista text-justify">
+              <li>un 60% de carne y huesos carnosos.</li>
+              <li>un 15% de vegetales.</li>
+              <li>un 10% de vísceras.</li>
+              <li>un 5% de fruta.</li>
+            </ul>
+            </p>
+          </div>
+        </div>
+        <hr class="featurette-divider">
+        <div class="row align-items-center justify-content-center m-3">
+          <div class="col-md-6 mb-3" data-aos="fade-right">
+            <img src="../images/alimentacion3.jpg" class="img-fluid rounded" alt="">
+          </div>
+          <div class="col-md-6" data-aos="fade-left">
+            <h4 class="text-center mb-5 text-warning">
+              Proteinas
+            </h4>
+            <p>
+              Lo primero que debe tener cualquier alimento para perros es proteína animal, en una proporción mayor al
+              25% (si es un pienso extrusionado, hay que sumar los porcentajes de todas las proteínas animales que tenga
+              y restarle los 2/3 de la calidad que merma con la producción). También es importante asegurarse de que
+              diga 100% natural, porque eso significa que sus saborizantes y aromatizantes están hechos con plantas, en
+              vez de con químicos.
+            </p>
+          </div>
+        </div>
+      </div>
+    </article>
+    <!--Seccion Tienda-->
+    <section class="container d-flex justify-content-center mt-3">
+      <div class="tienda container rounded">
+        <div class="tienda__contenido rounded">
+          <div class="tienda__textos text-light">
+            <h5>Ingresa a nuestra tienda</h5>
+            <p>Enterate todas las novedades que tenemos para vos</p>
+            <a href="../pages/tienda.html" class="btn btn-warning">Comprar</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
 
+  <!--Footer-->
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  <footer class="pie d-flex flex-column align-items-center justify-content-center text-white mt-3">
+    <p class="pie-texto text-center"> Otto´s Online <br> Copyright - Todos los derechos reservados</p>
+    <div class=" iconos-redes d-flex flex-wrap align-items-center justify-content-center">
+      <a href="#" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-instagram"></i>
+      </a>
+      <a href="#">
+        <i class="fa-brands fa-square-facebook"></i>
+      </a>
+      <a href="#">
+        <i class="fa-brands fa-twitter"></i>
+      </a>
+      <a href="#">
+        <i class="fa-brands fa-tiktok"></i>
+      </a>
+
+    </div>
+
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      easing: 'ease-out-back',
+      duration: 3000
+    });
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>

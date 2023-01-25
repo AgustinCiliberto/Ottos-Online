@@ -1,0 +1,19 @@
+.secondaryHero2 {
+    height: 91vh;
+    background: rgb(250,202,117);
+    background: linear-gradient(180deg, rgba(250,202,117,1) 0%, rgba(250,202,117,0.6867121848739496) 61%, rgba(250,202,117,0.3617822128851541) 100%);
+}
+.perroArticulo {
+    width: 90%;
+    height: 50%;
+    object-fit: cover;
+    background-position: center center;
+}
+
+.video {
+    background-color: $color1;
+
+    & iframe {
+        max-width: 100%;
+    }
+}
