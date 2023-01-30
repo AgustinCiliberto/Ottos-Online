@@ -57,8 +57,7 @@ li a {
   background-position: center;
   background-size: cover;
 }
-
-.hero__textos {
+.hero .hero__textos {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -75,8 +74,7 @@ li a {
   justify-content: center;
   background-color: rgb(14, 80, 79);
 }
-
-.tienda__contenido {
+.tienda .tienda__contenido {
   width: 80%;
   height: 60%;
   background-image: url(../images/tienda.jpg);
@@ -84,8 +82,7 @@ li a {
   background-size: cover;
   overflow: hidden;
 }
-
-.tienda__textos {
+.tienda .tienda__textos {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
   height: 100%;
   display: flex;
@@ -120,14 +117,12 @@ footer {
 .pie {
   background-color: rgb(14, 80, 79);
 }
-
-.pie-texto {
+.pie .pie-texto {
   font-size: 1.3rem;
   padding: 10px;
   margin-bottom: 5px;
 }
-
-.iconos-redes a {
+.pie .iconos-redes a {
   width: 40px;
   height: 40px;
   display: flex;
@@ -140,19 +135,16 @@ footer {
   transition: 0.2s ease-in;
   text-decoration: none;
 }
-
-.iconos-redes a:hover {
+.pie .iconos-redes a:hover {
   background-color: white;
   border: 2px solid white;
 }
-
-.iconos-redes i {
+.pie .iconos-redes i {
   color: white;
   font-size: 1.5rem;
   transition: all 0.2s ease-in;
 }
-
-.iconos-redes i:hover {
+.pie .iconos-redes i:hover {
   color: black;
 }
 
@@ -185,20 +177,16 @@ footer {
   background-position: center center;
 }
 
-.video {
+.contenedor-video {
   background-color: rgb(14, 80, 79);
 }
-.video iframe {
+.contenedor-video iframe {
   max-width: 100%;
 }
 
 .formu {
   font-family: "Neucha", sans-serif;
   color: rgb(14, 80, 79);
-}
-
-.bodyForm {
-  background-image: url(../../images/backgroundpage.png);
 }
 
 @media screen and (max-width: 1200px) {
@@ -214,5 +202,10 @@ footer {
 @media screen and (max-width: 576px) {
   .secondaryHero2 {
     height: 35vh;
+  }
+}
+@media screen and (max-width: 768px) {
+  .filtros {
+    display: none;
   }
 }/*# sourceMappingURL=estilo.css.map */

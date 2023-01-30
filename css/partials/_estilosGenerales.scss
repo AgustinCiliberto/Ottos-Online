@@ -3,7 +3,7 @@ body {
 }
 
 .navbar {
-    background-color: rgb(14,80,79);
+    background-color: $color1;
 }
 
 .navbar-brand {
@@ -16,18 +16,18 @@ h1,h2,h3,h4,h5,h6 {
 
 
 p {
-    font-family: 'Neucha', sans-serif;
+    font-family: $fontParrafo;
 }
 
 
 .btn {
-    font-family: 'Neucha', sans-serif;
-    background-color: rgb(250,202,117);
+    font-family: $fontParrafo;
+    background-color: $color2;
     border: none;
 }
 
 li a {
-    font-family: 'Neucha', sans-serif;
+    font-family: $fontParrafo;
 }
 
 .btn:hover {
@@ -38,7 +38,7 @@ li a {
 }
 
 .titulos {
-    color: rgb(14,80,79);
+    color: $color1;
 }
 
 .lista li {

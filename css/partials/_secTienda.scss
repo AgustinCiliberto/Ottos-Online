@@ -3,24 +3,26 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(14,80,79);
-}
+    background-color: rgb(14, 80, 79);
 
-.tienda__contenido {
-    width: 80%;
-    height: 60%;
-    background-image: url(../images/tienda.jpg);
-    background-position: center;
-    background-size: cover;
-    overflow: hidden;
-}
 
-.tienda__textos {
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+    .tienda__contenido {
+        width: 80%;
+        height: 60%;
+        background-image: url(../images/tienda.jpg);
+        background-position: center;
+        background-size: cover;
+        overflow: hidden;
+    }
+
+    .tienda__textos {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
 }

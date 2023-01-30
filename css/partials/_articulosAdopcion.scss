@@ -10,10 +10,10 @@
     background-position: center center;
 }
 
-.video {
+.contenedor-video {
     background-color: $color1;
 
-    & iframe {
+    iframe {
         max-width: 100%;
     }
 }
